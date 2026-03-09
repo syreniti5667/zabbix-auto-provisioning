@@ -1,4 +1,4 @@
-# zabbix-auto-provisioning
+# Zabbix-Auto-Provisioning
 
 Automated host provisioning via JSON-RPC API using YAML configuration.
 
