@@ -1,9 +1,8 @@
 # zabbix-auto-provisioning
 
-Automated host provisioning via JSON-RPC API using YAML configuration.
-
 ## Overview
-This tool automates the process of mass onboarding new devices (hosts, switches, cameras) into Zabbix. Instead of manual UI configuration, it reads a YAML inventory file and communicates with Zabbix API to provision hosts with specific templates, groups, and interfaces.
+This tool automates the process of mass onboarding new devices (hosts, switches, cameras) into Zabbix.
+Instead of manual UI configuration, it reads a YAML inventory file and communicates with Zabbix API to provision hosts with specific templates, groups, and interfaces.
 
 ## Features
 - **Mass Provisioning:** Creates multiple hosts in seconds.
@@ -12,9 +11,11 @@ This tool automates the process of mass onboarding new devices (hosts, switches,
 - **Observability:** Built-in standard logging (info/warnings/errors).
 - **Idempotency:** Detects if a host already exists and safely skips it.
 
-## Requirements
+## Tech Stack
 - Python 3.x
-- Zabbix Server API access
+- Zabbix JSON-RPC
+- YAML (PyYAML)
+- Requests (API communication), Argparse (CLI), Logging, OS (Env Vars)
 
 ## Usage
 1. Install dependencies: 
