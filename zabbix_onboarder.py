@@ -77,22 +77,22 @@ def main():
         create_params = {
             "host": host['name'],
             "interfaces": [
-            {
-                "type": 1,
-                "main": 1,
-                "useip": 1,
-                "ip": host['ip'],
-                "dns": "",
-                "port": str(host['port'])
-            }
-        ],
-        "groups": [
-            {"groupid": GROUP_ID}
-        ],
-        "templates": [
-            {"templateid": TEMPLATE_ID}
-        ]
-    }
+                {
+                    "type": 1,
+                    "main": 1,
+                    "useip": 1,
+                    "ip": host['ip'],
+                    "dns": "",
+                    "port": str(host['port'])
+                }
+            ],
+            "groups": [
+                {"groupid": GROUP_ID}
+            ],
+            "templates": [
+                {"templateid": TEMPLATE_ID}
+            ]
+        }
 
         result = zabbix_api_call("host.create", create_params, ZABBIX_TOKEN)
 
