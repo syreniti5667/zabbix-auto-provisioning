@@ -18,11 +18,7 @@ Instead of manual UI configuration, it reads a YAML inventory file and communica
 - Requests (API communication), Argparse (CLI), Logging, OS (Env Vars)
 
 ## Usage
-1. Install dependencies: 
-   `pip install -r requirements.txt`
-2. Prepare your inventory file:
-   `cp hosts_example.yaml hosts-RO.yaml` (and edit it with your data)
-3. Export your token: 
-   `export ZABBIX_TOKEN="your_api_token_here"`
-4. Run the script: 
-   `python zabbix_onboarder.py`
+1. **Install dependencies:** `pip install -r requirements.txt`
+2. **Prepare inventory file:** `cp hosts_example.yaml hosts-RO.yaml` (and edit it with your data).
+3. **Export token:** `export ZABBIX_TOKEN="your_api_token_here"`
+4. **Run the script:** `python zabbix_onboarder.py`
